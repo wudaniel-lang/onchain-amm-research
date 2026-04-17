@@ -1,0 +1,17 @@
+project:
+  name: "onchain-amm-research"
+  version: "0.1.0"
+  environment: "development"
+
+logging:
+  level: "INFO"
+  log_to_file: false
+  log_dir: "outputs/logs"
+  log_filename: "project.log"
+
+amm:
+  default_fee_rate: 0.003
+  default_token_x: "ETH"
+  default_token_y: "USDC"
+  default_reserve_x: 100.0
+  default_reserve_y: 200000.0
