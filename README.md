@@ -43,7 +43,7 @@ This project goes beyond standard backtesting frameworks by:
 
 ## Project Structure
 
-
+```text
 project_root/
 ├── src/
 │ ├── amm/ # AMM pricing and pool logic
